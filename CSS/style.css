@@ -16,6 +16,8 @@
     content: "";
     background-color: black;
     position: absolute;
+    top: 0;
+    bottom: 0;
     height: 100%;
     width: 100%;
     opacity: 0.95;
@@ -61,7 +63,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    height: 300px;
+    height: 400px;
     padding: 3px 200px;
     justify-content: center;
     align-items: center;
@@ -69,9 +71,11 @@
 
 .home::before {
     content: "";
-    background: url(../Images/Main-b-images/food\ img2.jpg) no-repeat center center/cover;
+    background: url(../Images/Main-b-images/Food\ img1.jpg) no-repeat center center/cover;
     position: absolute;
-    height: 100%;
+    top: 0;
+    left: 0;
+    height: 68%;
     width: 100%;
     opacity: 0.88;
     z-index: -1;
@@ -80,16 +84,16 @@
 }
 
 .p-heading {
-    margin: 15px;
+    margin: 20px;
     font-size: 3.5rem;
-    color: rgb(0, 0, 0);
+    color: rgb(230, 230, 230);
     /* text-transform: uppercase; */
     font-weight: bolder;
    
 }
 
 .home p {
-    color: black;
+    color: rgb(219, 214, 214);
     text-align: center;
     font-size: 1.3rem;
     font-weight: 500;
@@ -106,4 +110,43 @@ font-family: 'Rubik', sans-serif;
     border-radius: 10px;
     font-size:1.3rem;
     cursor: pointer;
+}
+.center
+{
+    text-align: center;
+}
+
+.services
+{
+    display: flex;
+    margin: 34px;
+}
+.box
+{
+    border: 3px solid brown;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #ececec;
+}
+.box img
+{
+    height: 160px;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    width: 220px;
+}
+.s-heading
+{
+    font-family: 'Arimo', sans-serif;
+     margin: 15px;
+     font-size: 1.8rem;
+
+}
+.p-heading1
+{
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 20px;
+    font-size: 2.8rem;
 }
